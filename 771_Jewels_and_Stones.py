@@ -6,11 +6,11 @@ class Solution:
         :rtype: int
         """
 
-        count = 0
+        ans = 0
 
         for i in range(len(J)):
             for j in range(len(S)):
                 if J[i] == S[j]:
-                    count = count + 1
+                    ans = ans + 1
 
-        return count
+        return ans

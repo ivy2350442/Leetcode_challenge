@@ -19,7 +19,7 @@ class Solution:
             output = head
 
             #非常注意這行指令，不可以放在temp = output 之後
-            #若先執行output.next = temp，則head.next 也會等於 temp
+            #指標的概念，會導致原本的1直接指向temp
             #head 下一個linked list
             head = head.next
 
@@ -27,4 +27,3 @@ class Solution:
             temp = output
 
         return output
-            

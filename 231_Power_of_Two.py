@@ -18,7 +18,7 @@ class Solution:
                 return False
             n = n / 2
 
-        return Ture
+        return True
         '''
 
         #以二位元做and 的判斷方式較快
